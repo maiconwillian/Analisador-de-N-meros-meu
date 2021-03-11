@@ -1,0 +1,93 @@
+body {
+    font: normal 15pt Arial;
+    text-align: center;
+    background-color: #002642;
+
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+hr {
+
+    border: 1px solid #002642;
+    background-color: #002642;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 350px;
+    margin: 20px auto;
+    box-shadow: 3px 3px 10px  rgb(65, 62, 62);
+
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    box-shadow: 3px 3px 10px  rgb(65, 62, 62);
+    font-size: 15px;
+    border-radius: 10px;
+    background-color:white; 
+    
+
+    
+   
+}
+
+th, td {
+    text-align: left;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+   
+
+    
+
+
+
+
+
+button {
+border-color:#032a4b;
+background:linear-gradient(to bottom, #0f5183 5%, #000000 100%);
+box-shadow:inset 0px 1px 0px 0px #165588;
+color:#fff;
+text-shadow:0px 1px 0px #528009;  
+    }
+    
+
+#botões {
+
+    margin-top: 5px;
+
+ 
+}
+
+#result {
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+  border-radius: 10px;
+  
+}
+ #text {
+
+    font-size: 15px;
+
+    
+ }
