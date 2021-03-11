@@ -86,7 +86,10 @@ for(var ii = 0; ii < Number(diver.length); ii++){
 return total
 }
 function finalizar () {
+  if (numeros == 0) {
 
+    window.alert('Erro, Digite algo')
+   }else{
 
   res.style.border = 'solid'
   res.innerHTML += `temos ao todo <strong>${numeros.length}</strong> números cadastrados </br> `
@@ -107,12 +110,12 @@ function finalizar () {
 
   res.innerHTML += `A média dos valores digitados é  <strong>${divis.toFixed(2)}</strong></br>`  
 
-
+}
 }
 
 
 function limpar() {
- 
+
   numtxt.value=``
   res.innerHTML = ``
   numeros = []
