@@ -61,7 +61,7 @@ function adicionar () {
 
     window.alert('Valor inválido ou ja Encontrado na lista')
   }
-  return true
+  numtxt.focus()
 }
 
 function num (ni) {
