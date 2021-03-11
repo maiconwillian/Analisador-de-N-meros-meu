@@ -18,7 +18,7 @@ function emlista (n,l) {
 
 function verificador (n) {
 
-if ( Number(n) >= 1 && Number(n) < 100) {
+if ( Number(n) >= 1 && Number(n) <= 100) {
 
 
   return true
